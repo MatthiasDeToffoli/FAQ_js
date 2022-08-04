@@ -1,0 +1,197 @@
+@media (min-width: 1410px)
+{
+	#FAQ 
+	{
+		font-size: 18;
+	}
+}
+
+@media (max-width: 1410px) and (min-width: 410px)
+{
+	#FAQ  
+	{
+		font-size: 15;
+	}
+}
+
+@media (min-width: 650px)
+{
+	#FAQ .Container .Block .Title
+	{
+		font-weight: 900;
+		font-size: 22;
+		margin-left:15px;
+	}	
+}
+
+@media (max-width: 650px)
+{
+	#FAQ .Tabs Button
+	{
+		min-width:auto;
+		min-height:auto;
+		height:30px;
+		font-size:12px;
+	}
+
+	#FAQ .Container .Block .Title
+	{
+		font-weight: 700;
+		font-size: 18;
+	}	
+}
+
+@media (min-width: 650px)
+{
+	#FAQ .Tabs
+	{
+		height: 45px;
+	}	
+}
+
+@media (max-width: 650px) and (min-width:500px)
+{
+	
+	#FAQ .Tabs
+	{
+		height:30px;
+	}
+}
+
+@media (max-width: 500px)
+{
+	#FAQ .Tabs
+	{
+		border-style:solid;
+		border-color:#39C1E1;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		border-bottom: none;
+	}
+	
+	#FAQ .Tabs .FirstTab
+	{
+		border-top-right-radius: 6px;
+		border-top-left-radius: 6px;
+	}
+	
+	#FAQ .Tabs .FirstTab.Selected
+	{
+		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
+	}
+	
+	#FAQ .Tabs .LastTab
+	{
+		border-bottom-color:#D99D46;
+		border-bottom-width:2px;
+	}
+	
+	#FAQ .Tabs Button
+	{
+		width:100%;
+		display:block;
+		border-radius:0px;
+		border-bottom-style:solid;
+		border-color:black;
+		border-width: 1px;
+	}
+}
+
+@media (hover: hover) {
+	#FAQ .Container .Block:hover
+	{
+		background-color:#939393;
+	}
+}
+
+#FAQ * 
+{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box
+}
+
+
+.Tabs Button
+{
+	background-color:#D99D46;
+	border-radius: 10px;
+	border-style: solid;
+	font-weight: 900;
+	cursor: pointer;
+	border-color: #000;
+	min-height: 45px;
+	min-width:130px;
+	color: #000;
+	float:left;
+	border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	border-style:none;
+	background-color:#A7AEB2;
+}
+
+#FAQ .Container .Block
+{
+	text-align: left;
+    cursor: pointer;
+    background: #D3D3D3;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #39C1E1;
+}
+
+#FAQ .Container
+{
+	width:80%;
+	border-style: solid;
+	border-color: #39C1E1;
+	display:none;
+}
+
+#FAQ .Tabs
+{
+	width: 80%;
+}
+
+
+#FAQ .Tabs Button.Selected
+{
+	background-color:#39C1E1;
+	cursor:default;
+}
+
+#FAQ .Container .Block:active
+{
+	background-color:#000A;
+}
+
+#FAQ .Container .Block .ShowedIndicator
+{
+	float: right;
+    margin-right: 15px;
+	margin-left: 20px;
+    font-weight: bolder;
+}
+
+#FAQ .Container .Block .Content
+{
+	display:none;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#FAQ .Active
+{
+	background-color:#110A;
+}
+
+#FAQ .Block hr
+{
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+#FAQ .Selected
+{
+	display:block;
+}
